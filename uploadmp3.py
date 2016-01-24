@@ -1,5 +1,3 @@
-'Upload files to Azure Cloud Storage
-
 import glob
 import os
 import time
