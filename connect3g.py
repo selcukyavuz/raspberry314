@@ -6,9 +6,9 @@ logmessage = "connect3g.py started"
 command = "sed -i '1s/^/" + logtime + " " + logmessage + "\\n/' /home/pi/selcuk/log.txt"
 os.system(command)
 
-SIM_PIN = "0000" // SET YPUR SIM CARD PIN NUMBER
+SIM_PIN = "0000"
 CUSTOM_APN = "Internet"
-USBMODEM = "12d1:1003" // SET 3G MODEM USB NUMBER. YOU CAN GET THIS NUMBER WITH COMMAND lsusb
+USBMODEM = "12d1:1003"
 ip = '8.8.8.8'
 
 if os.system("ping -c1 " + ip) == 0:
